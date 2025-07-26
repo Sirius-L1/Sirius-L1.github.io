@@ -19,6 +19,15 @@
   "publications": [
     {
       "year": 2025,
+      "title": "InfiGUI-R1: Advancing Multimodal GUI Agents from Reactive Actors to Deliberative Reasoners",
+      "authors": "<strong>Yuhang Liu*</strong>, Pengxiang Li*, Congkai Xie, Xavier Hu, Xiaotian Han, Shengyu Zhang, Hongxia Yang, Fei Wu.",
+      "url": "https://arxiv.org/abs/2504.14239",
+      "status": "Under review.",
+      "idea": "Proposes an Actor2Reasoner framework using a two-stage training process (Reasoning Injection via distillation & Deliberation Enhancement via RL) to evolve GUI agents from reactive actors to deliberative reasoners, enabling smaller models to achieve strong performance in planning and error recovery.",
+      "image": "images/infigui-r1.png"
+    },
+    {
+      "year": 2025,
       "title": "InfiGUIAgent: A Multimodal Generalist GUI Agent with Native Reasoning and Reflection",
       "authors": "<strong>Yuhang Liu</strong>, Pengxiang Li, Zishu Wei, Congkai Xie, Xueyu Hu, Xinchen Xu, Shengyu Zhang, Xiaotian Han, Hongxia Yang, Fei Wu.",
       "url": "https://arxiv.org/abs/2501.04575",
@@ -34,15 +43,6 @@
       "status": "CEFSW @ ICMR 2025.",
       "idea": "Presents the FiGRet framework to improve RAG systems by using LLMs to provide fine-grained guidance. Inspired by Guided Discovery Learning, it constructs examples focusing on relevance, comprehensiveness, and purity to better align the retriever with the LLM's preferences.",
       "image": "images/figret.png"
-    },
-    {
-      "year": 2025,
-      "title": "InfiGUI-R1: Advancing Multimodal GUI Agents from Reactive Actors to Deliberative Reasoners",
-      "authors": "<strong>Yuhang Liu*</strong>, Pengxiang Li*, Congkai Xie, Xavier Hu, Xiaotian Han, Shengyu Zhang, Hongxia Yang, Fei Wu.",
-      "url": "https://arxiv.org/abs/2504.14239",
-      "status": "Under review.",
-      "idea": "Proposes an Actor2Reasoner framework using a two-stage training process (Reasoning Injection via distillation & Deliberation Enhancement via RL) to evolve GUI agents from reactive actors to deliberative reasoners, enabling smaller models to achieve strong performance in planning and error recovery.",
-      "image": "images/infigui-r1.png"
     },
     {
       "year": 2025,
