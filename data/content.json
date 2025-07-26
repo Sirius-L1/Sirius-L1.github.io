@@ -1,0 +1,80 @@
+{
+  "profile": {
+    "name": "Yuhang Liu",
+    "chineseName": "刘宇航",
+    "title": "M.S. Student at Zhejiang University",
+    "email": "liuyuhang [at] zju [dot] edu [dot] cn",
+    "image": "images/profile.jpg",
+    "links": [
+      {
+        "name": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=RuBpm20AAAAJ"
+      }
+    ]
+  },
+  "about": [
+    "I am a Master's student at Zhejiang University, advised by Prof. <a href='https://shengyuzhang.github.io/' target='_blank' rel='noopener noreferrer'>Shengyu Zhang</a>. My research is centered on enhancing the capabilities of AI systems, with a primary focus on <strong class='font-semibold text-accent'>Large Language Models (LLMs)</strong>, <strong class='font-semibold text-accent'>Multimodal GUI Agents</strong>, and <strong class='font-semibold text-accent'>Reasoning Enhancement</strong>.",
+    "I have hands-on experience in developing advanced agents like <strong>InfiGUI-R1</strong> and <strong>InfiGUIAgent</strong>, focusing on bridging the gap between reactive systems and deliberative reasoners in complex, interactive environments."
+  ],
+  "publications": [
+    {
+      "year": 2025,
+      "title": "InfiGUIAgent: A Multimodal Generalist GUI Agent with Native Reasoning and Reflection",
+      "authors": "<strong>Yuhang Liu</strong>, Pengxiang Li, Zishu Wei, Congkai Xie, Xueyu Hu, Xinchen Xu, Shengyu Zhang, Xiaotian Han, Hongxia Yang, Fei Wu.",
+      "url": "https://arxiv.org/abs/2501.04575",
+      "status": "WCUA @ ICML 2025.",
+      "idea": "Introduces a GUI agent trained in two stages. The first enhances fundamental GUI understanding, while the second integrates hierarchical and expectation-reflection reasoning using synthesized data, enabling the agent to perform complex tasks without relying on textual annotations.",
+      "image": "images/infiguiagent.png"
+    },
+    {
+      "year": 2024,
+      "title": "Fine-Grained Guidance for Retrievers: Leveraging LLMs' Feedback in Retrieval-Augmented Generation",
+      "authors": "<strong>Yuhang Liu</strong>, Xueyu Hu, Shengyu Zhang, Jingyuan Chen, Fan Wu, Fei Wu.",
+      "url": "https://arxiv.org/abs/2411.03957",
+      "status": "CEFSW @ ICMR 2025.",
+      "idea": "Presents the FiGRet framework to improve RAG systems by using LLMs to provide fine-grained guidance. Inspired by Guided Discovery Learning, it constructs examples focusing on relevance, comprehensiveness, and purity to better align the retriever with the LLM's preferences.",
+      "image": "images/figret.png"
+    },
+    {
+      "year": 2025,
+      "title": "InfiGUI-R1: Advancing Multimodal GUI Agents from Reactive Actors to Deliberative Reasoners",
+      "authors": "<strong>Yuhang Liu*</strong>, Pengxiang Li*, Congkai Xie, Xavier Hu, Xiaotian Han, Shengyu Zhang, Hongxia Yang, Fei Wu.",
+      "url": "https://arxiv.org/abs/2504.14239",
+      "status": "Under review.",
+      "idea": "Proposes an Actor2Reasoner framework using a two-stage training process (Reasoning Injection via distillation & Deliberation Enhancement via RL) to evolve GUI agents from reactive actors to deliberative reasoners, enabling smaller models to achieve strong performance in planning and error recovery.",
+      "image": "images/infigui-r1.png"
+    },
+    {
+      "year": 2025,
+      "title": "Infi-MMR: Curriculum-based Unlocking Multimodal Reasoning via Phased Reinforcement Learning in Multimodal Small Language Models",
+      "authors": "Zeyu Liu*, <strong>Yuhang Liu*</strong>, Guanghao Zhu, Congkai Xie, Zhen Li, Jianbo Yuan, Xinyao Wang, Qing Li, Shing-Chi Cheung, Shengyu Zhang, Fei Wu, Hongxia Yang. (*Equal contribution)",
+      "url": "https://arxiv.org/abs/2505.23091",
+      "status": "Under review.",
+      "idea": "Unlocks multimodal reasoning in MSLMs through a three-phase curriculum: activating foundational textual reasoning, adapting it to cross-modal contexts, and finally enhancing it with caption-free data to mitigate linguistic bias and achieve SOTA performance.",
+      "image": "images/infi-mmr.png"
+    },
+    {
+      "year": 2025,
+      "title": "InfiR: Crafting Effective Small Language Models and Multimodal Small Language Models in Reasoning",
+      "authors": "Congkai Xie, Shuo Cai, Wenjun Wang, Pengxiang Li, Zhijie Sang, Kejing Yang, Yiming Zhang, Zhen Li, Guanghao Zhu, Zeyu Liu, Yang Yu, <strong>Yuhang Liu</strong>, Su Lu, Baoyi He, Qi Zhou, Xiaotian Han, Jianbo Yuan, Shengyu Zhang, Fei Wu, Hongxia Yang.",
+      "url": "https://arxiv.org/abs/2502.11573",
+      "status": "Under review.",
+      "idea": "Focuses on crafting efficient Small Language Models (SLMs) and Multimodal SLMs with competitive reasoning. It introduces a novel training pipeline to create smaller, effective models suitable for edge devices, addressing computational demands and privacy concerns.",
+      "image": "images/infir.png"
+    }
+  ],
+  "awards": [
+    {
+      "title": "First Prize (Top 18 Finalist, Team Leader)",
+      "source": "The 6th China Graduate AI Innovation Competition, 2024"
+    },
+    {
+      "title": "First Prize",
+      "source": "The 7th \"China Legal Research Cup\" Judicial AI Challenge, 2025"
+    },
+    {
+      "title": "Second Prize",
+      "source": "The 19th \"Challenge Cup\" National Competition, 2024"
+    }
+  ]
+}
