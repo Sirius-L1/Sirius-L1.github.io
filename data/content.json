@@ -19,6 +19,15 @@
   "publications": [
     {
       "year": 2025,
+      "title": "InfiGUI-G1: Advancing GUI Grounding with Adaptive Exploration Policy Optimization",
+      "authors": "<strong>Yuhang Liu*</strong>, Zeyu Liu*, Shuanghe Zhu, Pengxiang Li, Congkai Xie, Jiasheng Wang, Xavier Hu, Xiaotian Han, Jianbo Yuan, Xinyao Wang, Shengyu Zhang, Hongxia Yang, Fei Wu. (*Equal contribution)",
+      "url": "https://arxiv.org/abs/2508.05731",
+      "status": "Under review.",
+      "image": "images/infigui-g1.png",
+      "idea": "Addresses the semantic alignment bottleneck in GUI agents, where standard RL struggles with inefficient exploration. It proposes Adaptive Exploration Policy Optimization (AEPO), a framework that uses multi-answer generation to broaden exploration and a theoretically-grounded Adaptive Exploration Reward (AER) to efficiently guide the search. This enables the model to overcome high-confidence errors and learn challenging semantic associations."
+    },
+    {
+      "year": 2025,
       "title": "InfiGUI-R1: Advancing Multimodal GUI Agents from Reactive Actors to Deliberative Reasoners",
       "authors": "<strong>Yuhang Liu*</strong>, Pengxiang Li*, Congkai Xie, Xavier Hu, Xiaotian Han, Shengyu Zhang, Hongxia Yang, Fei Wu.",
       "url": "https://arxiv.org/abs/2504.14239",
