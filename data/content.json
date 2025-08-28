@@ -2,7 +2,7 @@
   "profile": {
     "name": "LIU Yuhang",
     "chineseName": "刘宇航",
-    "title": "M.S. Student at Zhejiang University | Technical Staff Intern at InfiX.ai",
+    "title": "M.S. Student at Zhejiang University",
     "email": "liuyuhang [at] zju [dot] edu [dot] cn",
     "image": "images/profile.jpg",
     "links": [
@@ -13,7 +13,7 @@
     ]
   },
   "about": [
-    "I am a Master's student at Zhejiang University, advised by Prof. <a href='https://shengyuzhang.github.io/' target='_blank' rel='noopener noreferrer'>Shengyu Zhang</a>, and currently a Technical Staff Intern at InfiX.ai. My research is centered on enhancing the capabilities of AI systems, with a primary focus on <strong class='font-semibold text-accent'>Large Language Models (LLMs)</strong>, <strong class='font-semibold text-accent'>Multimodal GUI Agents</strong>, and <strong class='font-semibold text-accent'>Reasoning Enhancement</strong>.",
+    "I am a Master's student at Zhejiang University, advised by Prof. <a href='https://shengyuzhang.github.io/' target='_blank' rel='noopener noreferrer'>Shengyu Zhang</a>. My research is centered on enhancing the capabilities of AI systems, with a primary focus on <strong class='font-semibold text-accent'>Large Language Models (LLMs)</strong>, <strong class='font-semibold text-accent'>Multimodal GUI Agents</strong>, and <strong class='font-semibold text-accent'>Reasoning Enhancement</strong>.",
     "I have hands-on experience in developing advanced agents like <strong>InfiGUI-R1</strong> and <strong>InfiGUIAgent</strong>, focusing on bridging the gap between reactive systems and deliberative reasoners in complex, interactive environments."
   ],
   "publications": [
