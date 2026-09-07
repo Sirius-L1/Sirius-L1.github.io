@@ -2,8 +2,8 @@
   "profile": {
     "name": "LIU Yuhang",
     "chineseName": "刘宇航",
-    "title": "M.S. Student at Zhejiang University | Technical Staff Intern at InfiX.ai",
-    "email": "liuyuhang [at] zju [dot] edu [dot] cn",
+    "title": "PhD Student at The Hong Kong Polytechnic University",
+    "email": "yu-hang [dot] liu [at] connect [dot] polyu [dot] hk",
     "image": "images/profile.jpg",
     "links": [
       {
@@ -13,66 +13,86 @@
     ]
   },
   "about": [
-    "I am a Master's student at Zhejiang University, advised by Prof. <a href='https://shengyuzhang.github.io/' target='_blank' rel='noopener noreferrer'>Shengyu Zhang</a>, and currently a Technical Staff Intern at InfiX.ai, advised by Prof. <a href='https://www4.comp.polyu.edu.hk/~hongxyang/' target='_blank' rel='noopener noreferrer'>Hongxia Yang</a>. My research is centered on enhancing the capabilities of AI systems, with a primary focus on <strong class='font-semibold text-accent'>Large Language Models (LLMs)</strong>, <strong class='font-semibold text-accent'>Multimodal GUI Agents</strong>, and <strong class='font-semibold text-accent'>Reasoning Enhancement</strong>.",
-    "I have hands-on experience in developing advanced agents like <strong>InfiGUI-R1</strong> and <strong>InfiGUIAgent</strong>, focusing on bridging the gap between reactive systems and deliberative reasoners in complex, interactive environments."
+    "I am a PhD student in the Department of Computing at The Hong Kong Polytechnic University (PolyU), advised by Prof. <a href='https://www4.comp.polyu.edu.hk/~hongxyang/' target='_blank' rel='noopener noreferrer'>Hongxia Yang</a>. Previously, I received my M.S. degree from Zhejiang University, where I was advised by Prof. <a href='https://shengyuzhang.github.io/' target='_blank' rel='noopener noreferrer'>Shengyu Zhang</a>. My research focuses on <strong class='font-semibold text-accent'>Large Language Models (LLMs)</strong> and <strong class='font-semibold text-accent'>LLM Agents</strong>, with particular interests in <strong class='font-semibold text-accent'>Agentic Post-training</strong>, <strong class='font-semibold text-accent'>Reinforcement Learning</strong>, <strong class='font-semibold text-accent'>Tool Use</strong>, and <strong class='font-semibold text-accent'>Reasoning</strong>.",
+    "My previous research focused on <strong>multimodal GUI agents</strong>, including <strong>InfiGUIAgent</strong>, <strong>InfiGUI-R1</strong>, and <strong>InfiGUI-G1</strong>, with an emphasis on enabling agents to move beyond reactive action generation toward deliberative reasoning, reflection, and robust interaction. Building on this line of work, I am now exploring general-purpose LLM agents that can reason, use tools, and adapt in complex interactive environments."
   ],
   "publications": [
     {
-      "year": 2025,
+      "year": 2026,
       "title": "InfiGUI-G1: Advancing GUI Grounding with Adaptive Exploration Policy Optimization",
       "authors": "<strong>Yuhang Liu*</strong>, Zeyu Liu*, Shuanghe Zhu, Pengxiang Li, Congkai Xie, Jiasheng Wang, Xavier Hu, Xiaotian Han, Jianbo Yuan, Xinyao Wang, Shengyu Zhang, Hongxia Yang, Fei Wu. (*Equal contribution)",
       "url": "https://arxiv.org/abs/2508.05731",
       "status": "AAAI 2026 (Oral Presentation)",
       "image": "images/infigui-g1.png",
-      "idea": "Addresses the semantic alignment bottleneck in GUI agents, where standard RL struggles with inefficient exploration. It proposes Adaptive Exploration Policy Optimization (AEPO), a framework that uses multi-answer generation to broaden exploration and a theoretically-grounded Adaptive Exploration Reward (AER) to efficiently guide the search. This enables the model to overcome high-confidence errors and learn challenging semantic associations."
+      "idea": "Introduces Adaptive Exploration Policy Optimization (AEPO) to address inefficient exploration in GUI grounding, helping RL overcome high-confidence errors and learn challenging semantic associations."
+    },
+    {
+      "year": 2026,
+      "title": "InfiGUIAgent: A Multimodal Generalist GUI Agent with Native Reasoning and Reflection",
+      "authors": "<strong>Yuhang Liu</strong>, Pengxiang Li, Zishu Wei, Congkai Xie, Xueyu Hu, Xinchen Xu, Shengyu Zhang, Xiaotian Han, Hongxia Yang, Fei Wu.",
+      "url": "https://arxiv.org/abs/2501.04575",
+      "status": "EACL 2026 (Long Paper); WCUA @ ICML 2025",
+      "image": "images/infiguiagent.png",
+      "idea": "Develops a multimodal generalist GUI agent with native reasoning and reflection through a two-stage training pipeline that strengthens GUI understanding and equips the agent for complex interaction without textual annotations."
     },
     {
       "year": 2025,
       "title": "InfiGUI-R1: Advancing Multimodal GUI Agents from Reactive Actors to Deliberative Reasoners",
       "authors": "<strong>Yuhang Liu*</strong>, Pengxiang Li*, Congkai Xie, Xavier Hu, Xiaotian Han, Shengyu Zhang, Hongxia Yang, Fei Wu.",
       "url": "https://arxiv.org/abs/2504.14239",
-      "status": "Under Review",
-      "idea": "Proposes an Actor2Reasoner framework using a two-stage training process (Reasoning Injection via distillation & Deliberation Enhancement via RL) to evolve GUI agents from reactive actors to deliberative reasoners, enabling smaller models to achieve strong performance in planning and error recovery.",
-      "image": "images/infigui-r1.png"
-    },
-    {
-      "year": 2025,
-      "title": "InfiGUIAgent: A Multimodal Generalist GUI Agent with Native Reasoning and Reflection",
-      "authors": "<strong>Yuhang Liu</strong>, Pengxiang Li, Zishu Wei, Congkai Xie, Xueyu Hu, Xinchen Xu, Shengyu Zhang, Xiaotian Han, Hongxia Yang, Fei Wu.",
-      "url": "https://arxiv.org/abs/2501.04575",
-      "status": "EACL 2026 (Main Conference); WCUA @ ICML 2025",
-      "idea": "Introduces a GUI agent trained in two stages. The first enhances fundamental GUI understanding, while the second integrates hierarchical and expectation-reflection reasoning using synthesized data, enabling the agent to perform complex tasks without relying on textual annotations.",
-      "image": "images/infiguiagent.png"
-    },
-    {
-      "year": 2024,
-      "title": "Fine-Grained Guidance for Retrievers: Leveraging LLMs' Feedback in Retrieval-Augmented Generation",
-      "authors": "<strong>Yuhang Liu</strong>, Xueyu Hu, Shengyu Zhang, Jingyuan Chen, Fan Wu, Fei Wu.",
-      "url": "https://arxiv.org/abs/2411.03957",
-      "status": "CEFSW @ ICMR 2025",
-      "idea": "Presents the FiGRet framework to improve RAG systems by using LLMs to provide fine-grained guidance. Inspired by Guided Discovery Learning, it constructs examples focusing on relevance, comprehensiveness, and purity to better align the retriever with the LLM's preferences.",
-      "image": "images/figret.png"
+      "status": "arXiv 2025",
+      "image": "images/infigui-r1.png",
+      "idea": "Proposes Actor2Reasoner, a two-stage framework combining reasoning distillation and reinforcement learning to transform reactive GUI actors into more deliberative reasoners with stronger planning and error recovery."
     },
     {
       "year": 2025,
       "title": "Infi-MMR: Curriculum-based Unlocking Multimodal Reasoning via Phased Reinforcement Learning in Multimodal Small Language Models",
       "authors": "Zeyu Liu*, <strong>Yuhang Liu*</strong>, Guanghao Zhu, Congkai Xie, Zhen Li, Jianbo Yuan, Xinyao Wang, Qing Li, Shing-Chi Cheung, Shengyu Zhang, Fei Wu, Hongxia Yang. (*Equal contribution)",
       "url": "https://arxiv.org/abs/2505.23091",
-      "status": "Under review",
-      "idea": "Unlocks multimodal reasoning in MSLMs through a three-phase curriculum: activating foundational textual reasoning, adapting it to cross-modal contexts, and finally enhancing it with caption-free data to mitigate linguistic bias and achieve SOTA performance.",
-      "image": "images/infi-mmr.png"
+      "status": "arXiv 2025",
+      "image": "images/infi-mmr.png",
+      "idea": "Uses a phased reinforcement-learning curriculum to progressively activate textual reasoning, transfer it to multimodal settings, and reduce linguistic bias in multimodal small language models."
+    },
+    {
+      "year": 2025,
+      "title": "Fine-Grained Guidance for Retrievers: Leveraging LLMs' Feedback in Retrieval-Augmented Generation",
+      "authors": "<strong>Yuhang Liu</strong>, Xueyu Hu, Shengyu Zhang, Jingyuan Chen, Fan Wu, Fei Wu.",
+      "url": "https://arxiv.org/abs/2411.03957",
+      "status": "CEFSW @ ICMR 2025",
+      "image": "images/figret.png",
+      "idea": "Introduces FiGRet, which uses fine-grained LLM feedback on relevance, comprehensiveness, and purity to better align retrievers with downstream generation preferences."
+    },
+    {
+      "year": 2026,
+      "title": "GUI-PRA: Process Reward Agent for GUI Tasks",
+      "authors": "Tao Xiong, Xavier Hu, Yurun Chen, <strong>Yuhang Liu</strong>, Changqiao Wu, Pengzhi Gao, Wei Liu, Jian Luan, Shengyu Zhang.",
+      "url": "https://arxiv.org/abs/2509.23263",
+      "status": "EMNLP 2026 (Main Conference)",
+      "idea": "Introduces a Process Reward Agent for GUI tasks that turns process evaluation from passive scoring into active investigation, enabling more reliable step-level judgments through domain-aware reasoning and active evidence gathering."
+    },
+    {
+      "year": 2026,
+      "title": "From Parameters to Behaviors: A Survey of Model Fusion for Large Language Models",
+      "authors": "Shuo Cai, Yanggan Gu, Zihao Wang, Yuanyi Wang, Yibo Yan, Wenjun Wang, <strong>Yuhang Liu</strong>, Guanghao Zhu, Sirui Huang, Ming Li, Hongxia Yang.",
+      "url": "https://www.preprints.org/manuscript/202605.2007",
+      "status": "EMNLP 2026 Findings",
+      "idea": "Provides a unified view of model fusion for LLMs, organizing existing methods into parameter-, representation-, and behavior-level fusion while surveying evaluation, applications, challenges, and future directions."
     },
     {
       "year": 2025,
       "title": "InfiR: Crafting Effective Small Language Models and Multimodal Small Language Models in Reasoning",
       "authors": "Congkai Xie, Shuo Cai, Wenjun Wang, Pengxiang Li, Zhijie Sang, Kejing Yang, Yiming Zhang, Zhen Li, Guanghao Zhu, Zeyu Liu, Yang Yu, <strong>Yuhang Liu</strong>, Su Lu, Baoyi He, Qi Zhou, Xiaotian Han, Jianbo Yuan, Shengyu Zhang, Fei Wu, Hongxia Yang.",
       "url": "https://arxiv.org/abs/2502.11573",
-      "status": "Under review",
-      "idea": "Focuses on crafting efficient Small Language Models (SLMs) and Multimodal SLMs with competitive reasoning. It introduces a novel training pipeline to create smaller, effective models suitable for edge devices, addressing computational demands and privacy concerns.",
-      "image": "images/infir.png"
+      "status": "arXiv 2025",
+      "image": "images/infir.png",
+      "idea": "Presents a training recipe for building compact language and multimodal models with competitive reasoning capabilities, targeting efficient deployment under limited computational budgets."
     }
   ],
   "awards": [
+    {
+      "title": "Excellent Graduate of Zhejiang University",
+      "source": "Zhejiang University, 2026"
+    },
     {
       "title": "First Prize (Top 18 Finalist, Team Leader)",
       "source": "The 6th China Graduate AI Innovation Competition, 2024"
